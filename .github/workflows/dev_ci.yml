@@ -1,7 +1,7 @@
 name: CI PR Test & Coverage 80 Check
 
 on:
-  pull_request:
+  push:
     branches: pipeline/github-ci-test
     workflow_dispatch:
 
