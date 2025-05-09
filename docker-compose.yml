@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: sb01-monew-team5:latest
+    image: sb01-monew-team5:7.0.0
     ports:
       - "8080:8080"
     env_file:
